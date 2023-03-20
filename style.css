@@ -1,14 +1,19 @@
 body, html {
     height: 100%;
+    background-image:url("about.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: 50% 0;
+    background-size:cover;
 }
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("satay.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Sate-Maranggi-1024x768.jpg");
 
   /* Set a specific height */
-  height: 70%;
+  height: 50%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -26,3 +31,80 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.green-box {
+  position: relative;
+  text-align:center;
+  padding: 18px 0;
+  margin:auto;
+  background: lightyellow;
+  width: 75%;
+  top: -30px;
+  height: 300px;
+  opacity:95%;
+}
+
+    #accordionNav {
+      background-color: lightyellow;
+      border: 1px solid yellow;
+    }
+    #accordionNav h3 {
+      font-size: 14px;
+      margin: 0;
+    }
+    #accordionNav img {
+      padding-bottom: 8px;
+    }
+    #accordionNav a {
+      color: #eee;
+      text-decoration: none;
+      display: block;
+      padding-top: 5px;
+      padding-right: 8px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      outline: none;
+    }
+    #accordionNav a:hover {
+      color: #ffcf60;
+    }
+    .accordion {
+      overflow: hidden;
+      outline: none;
+    }
+
+    .accordionPanelTab {
+      background-color: yellow;
+      background-image: url('../img/stripes.png');
+      margin: 0;
+      cursor: pointer;
+      -webkit-user-select: none; 
+      -moz-user-select: none; 
+      -ms-user-select: none; 
+      color: red;
+      height: 35px;
+      line-height: 35px;
+      font-size: 18px;
+      text-align: center;
+    }
+    .accordionPanelTab:hover {
+      color: gold;
+    }
+    .accordionPanelContent {
+      background: url(../img/bg-accordion.jpg);
+    }
+    .highlight {
+      color: gold;
+      background-color: lightyellow;
+    }
+
+    .fontyes {
+      font-size:20px;
+      font-weight: bold;
+      
+    }
+
+    .white {
+      color:white;
+      font-weight:bold;
+    }
